@@ -1,11 +1,11 @@
-interface Data {
+export interface Data {
   type: string;
   price: string;
   features: string[];
   isBig: boolean;
 }
 
-type CardType = {
+export type CardType = {
   data: Data;
 }
 

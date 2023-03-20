@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Card from "@/components/Card";
+import Card, { Data } from "@/components/Card";
 import Layout from "@/components/Layout";
 import CardLayout from "@/components/CardLayout";
 
-const data = [
+const data: Data[] = [
   {
     type: "education",
     price: "0",
